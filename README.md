@@ -27,12 +27,8 @@ Inicie o servidor com o seguinte comando:
 npm run start
 ```
 
-A API estará disponível em http://localhost:8000
-
-3. 
 Abra o endereço `http://localhost:8000` no navegador 
 Escaneie o QR Code pelo aplicativo WhatsApp
-
 
 ## Exemplos
 
@@ -43,14 +39,6 @@ Escaneie o QR Code pelo aplicativo WhatsApp
 {
   "number": "+5511987654321",
   "message": "Olá! Esta é uma mensagem enviada através da API do WhatsApp."
-}
-```
-
-* Resposta:
-```json
-{
-  "status": true,
-  "response": ""
 }
 ```
 
@@ -65,14 +53,6 @@ Escaneie o QR Code pelo aplicativo WhatsApp
 }
 ```
 
-* Resposta:
-```json
-{
-  "status": true,
-  "response": ""
-}
-```
-
 3. Enviar uma mensagem para um Grupo:
 * URL: `POST /send-message-group`
 * Corpo da Requisição:
@@ -83,13 +63,6 @@ Escaneie o QR Code pelo aplicativo WhatsApp
 }
 ```
 
-* Resposta:
-```json
-{
-  "status": true,
-  "response": ""
-}
-```
 
 ##  Aviso Legal
-Esta aplicação é apenas para fins educacionais e de aprendizado. O uso indevido ou excessivo da API pode violar os termos de serviço do WhatsApp e resultar em bloqueio da conta. Use com responsabilidade e de acordo com as políticas do WhatsApp.
+Esta aplicação é apenas para fins de aprendizado. O uso indevido ou excessivo da API pode violar os termos de serviço do WhatsApp e resultar em bloqueio da conta. Use com responsabilidade e de acordo com as políticas do WhatsApp.
