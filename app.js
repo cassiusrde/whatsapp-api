@@ -96,9 +96,7 @@ io.on('connection', function (socket) {
   client.on('authenticated', (session) => {
     socket.emit('authenticated', 'Whatsapp is authenticated!');
     socket.emit('message', 'Whatsapp is authenticated!');
-    console.log('AUTHENTICATED', session);
-    /*if( session ){
-    }*/ 
+    console.log('AUTHENTICATED');
   });
 
   client.on('auth_failure', function (session) {
